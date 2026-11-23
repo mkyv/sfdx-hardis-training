@@ -21,7 +21,7 @@ public with sharing class CrewCapacityBatch implements Database.Batchable<SObjec
       'SELECT Id, Crew_Size__c, Roof_Type__c, Total_Capacity_kW__c ' +
       'FROM Installation__c ' +
       'WHERE Status__c = \'Planned\''
-    );
+    ); 
   }
 
   public void execute(Database.BatchableContext context, List<Installation__c> installations) {
