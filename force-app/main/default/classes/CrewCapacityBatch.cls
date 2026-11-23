@@ -14,6 +14,8 @@ public with sharing class CrewCapacityBatch implements Database.Batchable<SObjec
   private static final Decimal KW_PER_PANEL = 0.4;
 
   // Kept across the chunks of one run, for the summary email
+  // Kept across the chunks of one run, for the summary email
+  // Kept across the chunks of one run, for the summary email
   private Integer recalculated = 0;
 
   public Database.QueryLocator start(Database.BatchableContext context) {
