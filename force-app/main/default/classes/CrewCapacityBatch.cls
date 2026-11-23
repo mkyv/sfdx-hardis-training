@@ -17,6 +17,7 @@ public with sharing class CrewCapacityBatch implements Database.Batchable<SObjec
   // Kept across the chunks of one run, for the summary email
   // Kept across the chunks of one run, for the summary email
   private Integer recalculated = 0;
+  private Integer recalculated_ = 0;
 
   public Database.QueryLocator start(Database.BatchableContext context) {
     return Database.getQueryLocator(
