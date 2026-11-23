@@ -1,0 +1,4 @@
+mergeTargets:
+  - main
+targetUsername: helios-preprod
+instanceUrl: https://login.salesforce.com
