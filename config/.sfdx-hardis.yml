@@ -278,3 +278,7 @@ useSmartDeploymentTests: false
 allowedPromotionSteps:
   - source: uat
     target: preprod
+releaseVersioningInitialVersion: 1.0.0
+releaseVersioningTagFormat: v{MAJ}.{MIN}.{PATCH}-rc.{RC}
+releaseVersioningTicketVersions: none
+monitoringRepository: https://github.com/mkyv/sfdx-hardis-training-monitoring
