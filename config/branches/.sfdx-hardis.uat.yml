@@ -1,0 +1,9 @@
+targetUsername: test-fxioqdorgtei@example.com
+instanceUrl: https://test.salesforce.com
+mergeTargets:
+  - preprod
+codingAgentAutoFix: false
+packageNoOverwritePath: ""
+scratchOrgSnapshotKeep: 2
+skipCodeCoverage: false
+useScratchOrgSnapshot: false
